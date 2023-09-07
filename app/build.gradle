@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace 'de.yanneckreiss.cameraxtutorial'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "de.yanneckreiss.cameraxtutorial"
         minSdk 28
-        targetSdk 33
+        targetSdk 34
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -38,7 +38,7 @@ android {
         buildConfig = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.4.7'
+        kotlinCompilerExtensionVersion '1.5.3'
     }
     packagingOptions {
         resources {
@@ -59,7 +59,7 @@ dependencies {
     implementation 'androidx.compose.ui:ui-tooling-preview'
     implementation 'androidx.compose.material3:material3'
     implementation "androidx.compose.material:material-icons-extended"
-    implementation 'androidx.compose.material:material:1.4.3'
+    implementation 'androidx.compose.material:material:1.5.1'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
