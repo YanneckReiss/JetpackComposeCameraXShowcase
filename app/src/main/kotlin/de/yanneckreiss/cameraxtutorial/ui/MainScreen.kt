@@ -8,8 +8,8 @@ import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.PermissionState
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberPermissionState
-import de.yanneckreiss.cameraxtutorial.ui.camera.CameraScreen
-import de.yanneckreiss.cameraxtutorial.ui.no_permission.NoPermissionScreen
+import de.yanneckreiss.cameraxtutorial.ui.features.camera.no_permission.NoPermissionScreen
+import de.yanneckreiss.cameraxtutorial.ui.features.camera.photo_capture.CameraScreen
 
 @Composable
 fun MainScreen() {

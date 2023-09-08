@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id "com.google.devtools.ksp" version "1.9.10-1.0.13"
 }
 
 android {
@@ -81,6 +82,16 @@ dependencies {
 
     //// ACCOMPANIST ////
     implementation "com.google.accompanist:accompanist-permissions:$accompanist_version"
+
+    ////DEPENDENCY INJECTION////
+    ////KOIN BASE////
+    implementation "io.insert-koin:koin-core:$koin_version"
+    implementation "io.insert-koin:koin-android:$koin_version"
+    implementation 'io.insert-koin:koin-androidx-compose:3.4.6'
+
+    ////KOIN KSP////
+    implementation "io.insert-koin:koin-annotations:$koin_ksp_version"
+    ksp "io.insert-koin:koin-ksp-compiler:$koin_ksp_version"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

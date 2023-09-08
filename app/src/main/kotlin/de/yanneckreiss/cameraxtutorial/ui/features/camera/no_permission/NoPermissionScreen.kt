@@ -1,4 +1,4 @@
-package de.yanneckreiss.cameraxtutorial.ui.no_permission
+package de.yanneckreiss.cameraxtutorial.ui.features.camera.no_permission
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -24,7 +24,7 @@ fun NoPermissionScreen(
 }
 
 @Composable
-fun NoPermissionContent(
+private fun NoPermissionContent(
     onRequestPermission: () -> Unit
 ) {
     Column(
