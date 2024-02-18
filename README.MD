@@ -10,3 +10,10 @@ If you like, you can read my [Medium article](https://medium.com/tech-takeaways/
 
 - [Koin](https://insert-koin.io/docs/setup/koin) with [Koin Annotations](https://insert-koin.io/docs/setup/annotations/) for dependency injection
 - [CameraX](https://developer.android.com/training/camerax) for camera handling
+
+
+## 🙌 Learn More On My
+- [YouTube](https://www.youtube.com/channel/UCqHzmnim9pKgpq57Hm7o2Gg)
+- [Medium](https://yanneck-reiss.medium.com)
+- [Twitter](https://twitter.com/YanneckReiss)
+- [Instagram](https://www.instagram.com/yanneckreiss)
